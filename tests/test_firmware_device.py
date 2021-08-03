@@ -2,7 +2,6 @@ from unittest import TestCase
 from unittest.mock import Mock, patch
 
 from parameterized import parameterized
-
 from pitop.common.common_ids import FirmwareDeviceID  # noqa: E402
 from pitop.common.firmware_device import FirmwareDevice  # noqa: E402
 from pitop.common.firmware_device import PTInvalidFirmwareDeviceException  # noqa: E402

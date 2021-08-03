@@ -1,8 +1,7 @@
 from unittest import TestCase
 
-from parameterized import parameterized
-
 import pitop.common.bitwise_ops as bitwise  # noqa: E402
+from parameterized import parameterized
 
 
 class BitwiseOpsTestCase(TestCase):
